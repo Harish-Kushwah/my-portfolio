@@ -5,6 +5,8 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import CodeThinking from "./CodeThinking";
+import ReactTypingEffect from 'react-typing-effect';
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -23,17 +25,21 @@ export default function Greeting(props) {
                 </h2>
               )}
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p subTitle "
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+               <ReactTypingEffect
+                text={greeting.subTitle}
+                eraseSpeed={"300ms"}
+                />
               </p>
+              
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="⭐ Star Me On Github"
+                  text="❤️ See My Resume"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={greeting.resumeLink}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
@@ -49,7 +55,7 @@ export default function Greeting(props) {
 							alt="saad sitting on table"
 							src={require("../../assets/images/feelingProud.svg")}
 						></img> */}
-            <FeelingProud theme={theme} />
+            <CodeThinking theme={theme} />
           </div>
         </div>
       </div>

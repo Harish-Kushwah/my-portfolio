@@ -347,7 +347,8 @@ class FeelingProud extends Component {
           />
         </g>
       </svg>
-            
+    
+     
     );
   }
 }
