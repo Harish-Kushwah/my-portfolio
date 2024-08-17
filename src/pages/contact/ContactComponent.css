@@ -126,13 +126,22 @@
   justify-content: center;
   margin-top: 0;
 }
+#contact-img{
+  border-radius: 50%;
+  height: 30rem;
+  width: 30rem;
+}
 
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;
     margin-top: 60px;
   }
-
+  #contact-img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 25rem;
+  }
   .blog-heading-text {
     font-size: 50px;
     margin-top: 40px;

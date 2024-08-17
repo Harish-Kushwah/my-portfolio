@@ -94,28 +94,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
@@ -124,7 +102,7 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "Java",
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
@@ -298,9 +276,9 @@ const degrees = {
       alt_name: "fergusson",
       duration: "2024 - 2026",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Advanced Studies in Computer Science: Currently pursuing a Master's in Computer Science at Ferguson College, focusing on deepening my expertise in cutting-edge technologies and research.",
+        "⚡ Building on Strong Foundations: Leveraging my robust foundation from a B.Sc. in Computer Science to excel in advanced topics and specialized areas of interest.",
+        "⚡ Research and Innovation Focused: Engaged in research-oriented projects and coursework, aiming to contribute innovative solutions to the field of computer science.",
       ],
       website_link: "https://fergusson.edu/",
     },
@@ -311,9 +289,9 @@ const degrees = {
       alt_name: "Pune University",
       duration: "2021 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Top Academic Performer: Graduated with a CGPA of 9.15/10, showcasing consistent academic excellence throughout the program.",
+        "⚡ Competition Winner: Secured the top spot in the college's Avishkar competition by presenting an innovative SnapAttendance project.",
+        "⚡ Prolific Problem Solver: Solved over 650 coding problems across various platforms, demonstrating strong problem-solving skills and a deep understanding of computer science concepts.",
       ],
       website_link: "http://www.unipune.ac.in/default.htm",
     },
@@ -325,39 +303,31 @@ const certifications = {
     {
       title: "Full Stack Web Development",
       subtitle: "- Saurabh Shukla",
-      logo_path: "stanford_logo.png",
+      logo_path: "mysirg_logo.png",
       certificate_link:
         "https://premium.mysirg.com/learn/certificate/7401054-139195",
       alt_name: "MySrig",
-      color_code: "#8C151599",
+      color_code: "#ffffff",
     },
     {
       title: "TCS iON Career Edge-Young Professional",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      subtitle: "- TCS iON",
+      logo_path: "tcsion_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/15qYGBa4KkhYed8CFlrmePeoucifUDth4/view",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      alt_name: "TCS iON",
+      color_code: "#ffffff",
     },
     {
       title: "Web Development Internship",
-      subtitle: "- NovaNector pvt ltd",
-      logo_path: "google_logo.png",
+      subtitle: "- NovaNectar Services Pvt. Ltd.",
+      logo_path: "novanector.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+        "https://drive.google.com/file/d/1t0TkjCwMpfCNcgoZAPqbFVYsoR1FFroe/view?usp=sharing",
       alt_name: "Google",
-      color_code: "#0C9D5899",
+      color_code: "black",
     },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
+    
   ],
 };
 
@@ -438,20 +408,20 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_Harish.png",
+    profile_image_path: "harish_pic.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Django,React,Python,Java,Web Development,Desktop Application Development and Opensource Development.",
   },
-  blogSection: {
+ /* blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
     link: "https://blogs.Harishhathidara.com/",
     avatar_image_path: "blogs_image.svg",
-  },
+  },*/
   addressSection: {
     title: "Address",
-    subtitle: "Anand Nagar,Kothrud,Pune,Maharashtra",
+    subtitle: "Near Anand Nagar,Kothrud,Pune,Maharashtra-411038",
     locality: "Maharashtra",
     country: "India",
     region: "asia",
@@ -461,8 +431,8 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/sX3yXjx4XXVBwDFw8",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Call Me.",
+    subtitle: "+91 8317210766",
   },
 };
 
