@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Harish Kushwah Portfolio",
     type: "website",
-    url: "http://Harishhathidara.com/",
+    url: "https://harish-kushwah.github.io/my-portfolio/",
   },
 };
 
@@ -94,17 +94,21 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Java",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
         },
+      
       ],
     },
     {
@@ -160,12 +164,13 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#CB3837",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
-        }
+        },
       ],
     },
    
